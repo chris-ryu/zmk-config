@@ -146,6 +146,17 @@
             bindings = <&mkp LCLK>;
             layers = <3>;
         };
+	combo_meh_spc {
+	    timeout-ms = <50>;
+	    key-positions = <0 1>;
+	    bindings = <&td meh_space>, <&kp RGUI>;
+	};
+
+	combo_rgui_spc {
+	    timeout-ms = <50>;
+	    key-positions = <0 1>;
+	    bindings = <&kp SPC &td td_layer_toggle>, <&trans>;
+	};
     };
 
     behaviors {
