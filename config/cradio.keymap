@@ -17,6 +17,13 @@
 
 
 / { 
+macros {
+    mac_rgui_space {
+	keys = <30 16>;
+	actions = <ZMK_ACTION_LAYER_TAP(1)>;
+	timeout-ms = <50>;
+    };
+};
     combos {
         compatible = "zmk,combos";
         combo_esc { 
@@ -146,17 +153,6 @@
             bindings = <&mkp LCLK>;
             layers = <3>;
         };
-	combo_meh_spc {
-	    timeout-ms = <50>;
-	    key-positions = <30>;
-	    bindings = <&td meh_space>;
-	};
-
-	combo_rgui_spc {
-	    timeout-ms = <50>;
-	    key-positions = <30 16>;
-	    bindings = <&kp SPC &td td_layer_toggle>, <&kp RGUI>;
-	};
     };
 
     behaviors {
