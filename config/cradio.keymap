@@ -19,7 +19,7 @@
 / { 
     macros {
         mac_rgui_space {
-            keys = <ZMK_KEY_RGUI ZMK_KEY_SPACE>;
+            keys = <38 16>;
             actions = <ZMK_ACTION_LAYER_TAP(1)>;
             timeout-ms = <50>;
         };
