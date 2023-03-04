@@ -22,7 +22,7 @@
         combo_rgui_space {
             key-positions = <16 30>;
             timeout-ms = <100>;
-            bindings = <&mt RGUI SPC &tog 5>;
+            bindings = <&tog 5 &mt RGUI SPC>;
         };
         combo_esc { 
             timeout-ms = <50>;
