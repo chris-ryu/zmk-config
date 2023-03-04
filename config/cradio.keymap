@@ -14,7 +14,6 @@
     flavor = "tap-preferred";
     tapping_term_ms = <200>;
 };
-
 &macros {
     mac_rgui_space {
         keys = <ZMK_KEY_RGUI ZMK_KEY_SPACE>;
@@ -22,7 +21,7 @@
         timeout-ms = <50>;
     };
 };
-/ { 
+{ 
     combos {
         compatible = "zmk,combos";
         combo_esc { 
