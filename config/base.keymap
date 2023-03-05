@@ -21,7 +21,7 @@
 
 #include "combos.dtsi"  // must be sourced after layer-shortcuts
 #include "mouse.dtsi"
-#include "extra_keys.h"
+
 
 ZMK_CONDITIONAL_LAYER(FN NAV, MOUSE)  // FN + NAV --> MOUSE
 ZMK_CONDITIONAL_LAYER(FN NUM, SYS)    // FN + NUM --> SYS
