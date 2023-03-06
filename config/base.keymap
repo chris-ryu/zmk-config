@@ -83,7 +83,7 @@ ZMK_CONDITIONAL_LAYER(FN NUM, SYS)    // FN + NUM --> SYS
 #define THUMBS LH1 LH0 RH0 RH1                                     // thumb keys
 
 ZMK_BEHAVIOR(hml, hold_tap,  // left-hand HRMs
-    flavor = "balanced";
+    flavor = "hold-preferred";
     tapping-term-ms = <280>;
     quick-tap-ms = <QUICK_TAP_MS>;
     global-quick-tap-ms = <100>;        // requires PR #1387
@@ -93,7 +93,7 @@ ZMK_BEHAVIOR(hml, hold_tap,  // left-hand HRMs
 )
 
 ZMK_BEHAVIOR(hmr, hold_tap,  // right-hand HRMs
-    flavor = "balanced";
+    flavor = "hold-preferred";
     tapping-term-ms = <280>;
     quick-tap-ms = <QUICK_TAP_MS>;
     global-quick-tap-ms = <100>;        // requires PR #1387
