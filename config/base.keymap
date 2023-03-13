@@ -14,9 +14,9 @@
 #define FN 2
 #define NUM 3
 #define SYS 4
-#define UC 5
-#define MWH 6
-#define MOUSE 7
+//#define UC 5
+#define MWH 5
+#define MOUSE 6
 
 #include "combos.dtsi"  // must be sourced after layer-shortcuts
 #include "mouse.dtsi"
