@@ -1,3 +1,2 @@
 ZMK Config for Ferris
-
-Experimental, various size layouts in the revision history.
+I forked from benvallack/zmk-config, but changed most of it to the https://github.com/urob/zmk-config style.
