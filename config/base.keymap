@@ -40,7 +40,7 @@
 
 &lt {  // layer-tap config
     flavor = "balanced";
-    tapping-term-ms = <170>;
+    tapping-term-ms = <200>;
     quick-tap-ms = <QUICK_TAP_MS>;
 };
 
